@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Хлюпик коины</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <div id="click-section">
+            <button id="click-button">Кликни меня!</button>
+            <div id="coin-status">Ваши Хлюпики: <span id="coin-count">0</span></div>
+        </div>
+        <div id="shops">
+            <section id="skin-shop">
+                <h2>Магазин скинов</h2>
+                <div class="shop-container">
+                    <div class="shop-item" data-type="skin" data-skin="default">
+                        <img src="https://img.freepik.com/free-psd/realistic-lottery-symbol-isolated_23-2151177245.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1723680000&semt=ais_hybrid" alt="Default Skin">
+                        <p>Цена: 0 Хлюпиков</p>
+                    </div>
+                    <div class="shop-item" data-type="skin" data-skin="skin1">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/1_hryvnia_coin_of_Ukraine%2C_2018_%28averse%29.jpg" alt="Skin 1">
+                        <p>Цена: 100 Хлюпиков</p>
+                    </div>
+                    <div class="shop-item" data-type="skin" data-skin="skin2">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5d/5_hryvnia_coin_of_Ukraine%2C_2018_%28averse%29.jpg" alt="Skin 2">
+                        <p>Цена: 250 Хлюпиков</p>
+                    </div>
+                    <div class="shop-item" data-type="skin" data-skin="skin3">
+                        <img src="https://cdn-icons-png.flaticon.com/512/40/40221.png" alt="Skin 3">
+                        <p>Цена: 500 Хлюпиков</p>
+                    </div>
+                </div>
+            </section>
+            <section id="upgrade-shop">
+                <h2>Магазин усилений</h2>
+                <div class="shop-container">
+                    <div class="shop-item" data-type="upgrade" data-multiplier="2">
+                        <img src="https://png.pngtree.com/png-clipart/20240208/original/pngtree-x2-3d-choice-photo-png-image_14262939.png" alt="x2 Upgrade">
+                        <p>Цена: 150 Хлюпиков</p>
+                    </div>
+                    <div class="shop-item" data-type="upgrade" data-multiplier="3">
+                        <img src="https://png.pngtree.com/png-clipart/20231017/original/pngtree-x3-3d-earn-photo-png-image_13336528.png" alt="x3 Upgrade">
+                        <p>Цена: 500 Хлюпиков</p>
+                    </div>
+                    <div class="shop-item" data-type="upgrade" data-multiplier="4">
+                        <img src="https://png.pngtree.com/png-vector/20231015/ourmid/pngtree-x4-3d-sticker-png-image_10262462.png" alt="x4 Upgrade">
+                        <p>Цена: 1000 Хлюпиков</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
